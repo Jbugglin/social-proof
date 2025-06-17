@@ -1,0 +1,70 @@
+:root {
+
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100dvw;
+    height: 100dvh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    max-width: 325px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+main p {
+    padding: 0rem 1rem;
+}
+
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-score {
+    background-image: url(./images/icon-star.svg);
+    background-repeat: repeat-x;
+    width: 85px;
+    height: 20px;
+}
+
+.review {
+    border: 2px solid red;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer img {
+    border-radius: 50%;
+}
+
+.attribution {
+        font-size: 11px;
+        text-align: center;
+}
+
+.attribution a {
+        color: hsl(228, 45%, 44%);
+}
